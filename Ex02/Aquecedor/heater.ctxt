@@ -1,17 +1,17 @@
 #BlueJ class context
 comment0.target=heater
-comment0.text=\r\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ heater\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\r\n
+comment0.text=\r\n\ @author\ luanpereira00\r\n\ @version\ 1.0\r\n
 comment1.params=minimo\ maximo
 comment1.target=heater(int,\ int)
-comment1.text=\r\n\ COnstrutor\ para\ objetos\ da\ classe\ heater\r\n
+comment1.text=\r\n\ Construtor\ parametrizado\r\n
 comment2.params=
 comment2.target=void\ warmer()
 comment3.params=
 comment3.target=void\ cooler()
 comment4.params=
 comment4.target=int\ getTemperature()
-comment5.params=
-comment5.target=void\ showTemperature()
-comment6.params=inc
-comment6.target=void\ setIncrement(int)
+comment5.params=inc
+comment5.target=void\ setIncrement(int)
+comment6.params=
+comment6.target=void\ showTemperature()
 numComments=7

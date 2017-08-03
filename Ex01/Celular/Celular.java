@@ -2,16 +2,20 @@
 /**
  * Escreva a descrição da classe Celular aqui.
  * 
- * @author (seu nome) 
- * @version (número de versão ou data)
+ * @author luanpereira
+ * @version 1.0
  */
+
+//Classe que define o objeto Celular
 public class Celular{
     private int creditos;
 
+    //Construtor padrao
     public Celular(){
         creditos = 1000;
     }
 
+    //Construtor parametrizado
     public Celular(int credit){
         if(credit>=0){
             creditos = credit;
@@ -22,6 +26,8 @@ public class Celular{
         }
     }
     
+    //Metodos de acesso
+
     public int getCreditos(){
         return creditos;
     }
@@ -35,6 +41,8 @@ public class Celular{
         }
     }
 
+
+    //Metodo de recarga
     public void topUp(int credit){
         if(credit>=0) {
             creditos+=credit;
@@ -44,11 +52,13 @@ public class Celular{
             System.out.println("Impossivel adicionar creditos negativos!");
         }
     }
-    
+        
+    //Metodo para ver saldo
     public void saldoAtual(){
         System.out.println("Saldo atual: " + getCreditos() + " centavos de creditos");
     }
     
+    //Metodo de decrescimo de saldo
     public void topDown(int credit){
         if(credit>=0) {
             if(credit<=creditos){

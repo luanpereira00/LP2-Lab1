@@ -1,20 +1,20 @@
 
 /**
- * Escreva a descrição da classe heater aqui.
- * 
- * @author (seu nome) 
- * @version (número de versão ou data)
+ * @author luanpereira00
+ * @version 1.0
  */
+
+//Definicao da classe heater
 public class heater
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
+    //variaveis da classe heater
     private int temperature;
     private int min;
     private int max;
     private int increment;
 
     /**
-     * COnstrutor para objetos da classe heater
+     * Construtor parametrizado
      */
     public heater(int minimo, int maximo)
     {
@@ -33,6 +33,7 @@ public class heater
         }
     }
 
+    //Metodo para aquecer
     public void warmer()
     {
         if(temperature+increment<=max){
@@ -42,6 +43,8 @@ public class heater
             System.out.println("Impossivel aquecer mais! Sua temperatura maxima eh: " + max);
         }
     }
+
+    //Metodo para resfriar
     public void cooler()
     {
        if(temperature-increment>=min){
@@ -52,12 +55,10 @@ public class heater
         }
     }
     
+    //Metodos de acesso
+
     public int getTemperature(){
         return temperature;
-    }
-    
-    public void showTemperature(){
-        System.out.println("A temperatural atual eh " + temperature);
     }
     
     public void setIncrement(int inc){
@@ -68,4 +69,11 @@ public class heater
             System.out.println("Por favor, passe um numero nao negativo!");
         }
     }
+
+    //Metodo que exibe a temperatura atual
+    public void showTemperature(){
+        System.out.println("A temperatural atual eh " + temperature);
+    }
+    
+   
 }
