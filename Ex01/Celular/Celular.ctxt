@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Celular
+comment0.text=\r\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Celular\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\r\n
+comment1.params=
+comment1.target=Celular()
+comment2.params=credit
+comment2.target=Celular(int)
+comment3.params=
+comment3.target=int\ getCreditos()
+comment4.params=credit
+comment4.target=void\ setCreditos(int)
+comment5.params=credit
+comment5.target=void\ topUp(int)
+comment6.params=
+comment6.target=void\ saldoAtual()
+comment7.params=credit
+comment7.target=void\ topDown(int)
+numComments=8
